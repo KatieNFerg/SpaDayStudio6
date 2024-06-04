@@ -1,0 +1,20 @@
+﻿@page
+@model MyApp.Namespace.AddModel
+@{
+}
+<form method = "POST" action = "/user">
+<label>Enter your UserName:
+    <input type="text" value="Username" name = "name"/>
+    </label>
+<label>Type your email
+    <input type="email" value="email" name = "userEmail"/>
+</label>
+<label>Type your password
+    <input type="password" value="Password" name = "userPassword"/>
+</label>
+<label>Confirm your password
+    <input type="password" value="Confirm Password" name = "verify"/>
+</label>
+<input type="submit" name="submit"/> 
+</form>
+
